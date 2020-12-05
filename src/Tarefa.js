@@ -4,7 +4,6 @@ import {Button} from 'reactstrap';
 class Tarefa extends React.Component{
   constructor(props){
     super(props);
-    //this.state = {isChecked: true};
     this.trataChange   = this.trataChange.bind(this);
     this.trataMarcacao = this.trataMarcacao.bind(this);
   }
